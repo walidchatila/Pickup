@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.utexas.pickup.PlayerProfileActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+        <item
+        android:id="@+id/create_game"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/create_game"/>
+    
+        <item
+        android:id="@+id/friends_list"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/friends_list"/>
+        <item
+        android:id="@+id/join_game"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/join_game"/>
+        <item
+        android:id="@+id/sign_out"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/sign_out"/>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PickUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_sport_selection">Select A Sport</string>
+    <string name="title_activity_miscellaneous_lobby">MiscellaneousLobbyActivity</string>
+    <string name="title_activity_game_lobby">Choose A Game</string>
+    <string name="title_activity_create_game">Create A Game</string>
+    <string name="title_activity_map_view">Map View</string>
+    <string name="title_activity_game_info">Game Information</string>
+    <string name="title_activity_player_profile">Player Profile</string>
+    <string name="title_activity_friends_list">Friends List</string>
+    <string name="title_activity_rate_players">Rate Players</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="password_confirmation">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="needtoregister">Need an account?</string>
+    <string name="create_account">Create an Account</string>
+    <string name="name">Firstname Lastname</string>
+    <string name="select_sport">Select a Sport</string>
+    <string name="create_a_game">Create a Game</string>
+    <string name="create_game">Create Game</string>
+    <string name="gametype">Type of Sport</string>
+    <string name="gamename">Game Name</string>
+    <string name="datetime">Date, Time</string>
+    <string name="location">Location</string>
+    <string name="num_players">Number of Players</string>
+    <string name="restrictions">Restrictions (Age, Gender, Skill, Public or Private)</string>
+    <string name="map_view">Map View</string>
+    <string name="game_info">Game Information</string>
+    <string name="join_game">Join Game</string>
+    <string name="player_profile">Walids Profile</string>
+    <string name="friends_list">Friends List</string>
+    <string name="rate_players">Rate Players</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="toast">Toast test</string>
+    <string name="test_m">just for testing -> miscelanneous lobby</string>
+    <string name="test_g">just for testing -> game lobby</string>
+    <string name="players_list">List of Players</string>
+    <string name="title_activity_list_players">ListPlayersActivity</string>
+    <string name="title_activity_players_list">PlayersList</string>
+    <string name="test_name">Touchdown</string>
+    <string name="test_number">Available Spots: 5</string>
+    <string name="test_gender">Coed Game</string>
+    <string name="test_location">Location: Intramural Fields</string>
+    <string name="test_date">November 19    6:00pm</string>
+    <string name="player_bio">Im new to this city and Im looking to make new friends through playing sports. I love playing basketball and staying active. </string>
+	<string name="player_bio_title">Player Bio</string>
+	<string name="current_joined_game">Joined Games</string>
+	<string name="sportsmanship">Sportsmanship</string>
+	<string name="skill">Skill</string>	
+</resources>

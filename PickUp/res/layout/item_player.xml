@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:text="ProfilePic" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profilepic"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="23dp"
+        android:layout_toRightOf="@+id/profilepic"
+        android:text="Name"
+        android:textColor="#2694ed"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/player_sportsmanship"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Name"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/profilepic"
+        android:text="@string/sportsmanship"
+        android:textColor="#052937"
+        android:textSize="10sp"
+        android:padding="5dip"
+         />
+
+    <TextView
+        android:id="@+id/player_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player_sportsmanship"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/profilepic"
+        android:text="@string/skill"
+        android:textColor="#052937"
+        android:textSize="10sp"
+        android:padding="5dip" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_alignBottom="@+id/player_skill"
+            android:layout_alignTop="@+id/player_skill"
+            android:layout_toRightOf="@+id/player_skill"
+            android:padding="2dip"
+            android:src="@drawable/gold_star2" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_above="@+id/ImageView01"
+            android:layout_alignTop="@+id/player_sportsmanship"
+            android:layout_toRightOf="@+id/player_sportsmanship"
+            android:padding="2dip"
+            android:src="@drawable/gold_star2" />
+
+        <ImageView
+            android:id="@+id/ImageView03"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_above="@+id/ImageView01"
+            android:layout_alignTop="@+id/ImageView02"
+            android:layout_toRightOf="@+id/ImageView02"
+            android:padding="2dip"
+            android:src="@drawable/gold_star2" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="15sp"
+            android:layout_height="15sp"
+            android:layout_alignBottom="@+id/ImageView03"
+            android:layout_below="@+id/Name"
+            android:layout_toRightOf="@+id/ImageView03"
+            android:padding="2dip"
+            android:src="@drawable/gold_star2" />
+
+</RelativeLayout>

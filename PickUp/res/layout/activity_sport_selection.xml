@@ -1,0 +1,88 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graybg3"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.utexas.pickup.SportSelectionActivity" >
+
+        <ImageView
+            android:id="@+id/baseball_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/tennis_button"
+            android:layout_alignTop="@+id/hockey_button"
+            android:src="@drawable/baseball_final" />
+
+        <ImageView
+            android:id="@+id/golf_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/ib"
+            android:layout_alignTop="@+id/hockey_button"
+            android:src="@drawable/golfball_final" />
+
+        <ImageView
+            android:id="@+id/hockey_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/footbal_button"
+            android:layout_below="@+id/footbal_button"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/hockeystickpuck_final" />
+
+        <ImageView
+            android:id="@+id/soccerball_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/golf_button"
+            android:layout_alignTop="@+id/volleyball_button"
+            android:src="@drawable/soccer_ball_large" />
+
+        <ImageView
+            android:id="@+id/misc"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/baseball_button"
+            android:layout_alignTop="@+id/volleyball_button"
+            android:src="@drawable/questionmark_final" />
+
+        <ImageView
+            android:id="@+id/volleyball_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignLeft="@+id/hockey_button"
+            android:layout_below="@+id/hockey_button"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/voleyball_final" />
+
+        <ImageView
+            android:id="@+id/ib"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="85dp"
+            android:src="@drawable/basketball" />
+
+        <ImageView
+            android:id="@+id/tennis_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/footbal_button"
+            android:src="@drawable/tennisball_final" />
+
+        <ImageView
+            android:id="@+id/footbal_button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignTop="@+id/ib"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/football" />
+        
+</RelativeLayout>
